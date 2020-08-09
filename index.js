@@ -22,6 +22,10 @@ $('.op').click(e => {
   isOperator = true
 })
 
+$('#ac').click(e => {
+  $('#display').val('')
+})
+
 $('#equals').click(e => {
   equalNo++
   console.log(equalNo)
