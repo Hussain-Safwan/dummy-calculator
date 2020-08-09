@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>React Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <header>
+          <ion-icon name="calculator"></ion-icon>
+          <p>React Calculator</p>
+        </header>
+      </nav>
+      <div class="calculator">
+        <div class="input-result">
+          <input type="number" id="display" readonly />
+        </div>
+        <div class="btn4">
+          <div>AC</div>
+          <div>+/-</div>
+          <div>%</div>
+          <div>÷</div>
+        </div>
+        <div class="btn4">
+          <div class="num" data-val="7">7</div>
+          <div class="num" data-val="8">8</div>
+          <div class="num" data-val="9">9</div>
+          <div class="op" data-val="X">x</div>
+        </div>
+        <div class="btn4">
+          <div class="num" data-val="4">4</div>
+          <div class="num" data-val="5">5</div>
+          <div class="num" data-val="6">6</div>
+          <div class="op" data-val="-">-</div>
+        </div>
+        <div class="btn4">
+          <div class="num" data-val="1">1</div>
+          <div class="num" data-val="2">2</div>
+          <div class="num" data-val="3">3</div>
+          <div class="op" data-val="+">+</div>
+        </div>
+        <div class="btn3">
+          <div class="num" data-val="0">0</div>
+          <div class="op" data-val=".">.</div>
+          <div class="op" id="equals" data-val="=">=</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
